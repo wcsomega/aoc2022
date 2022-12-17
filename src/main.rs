@@ -1,3 +1,5 @@
+mod puzzles;
+use crate::puzzles::*;
 fn main() {
-    println!("Hello, world!");
+  day1("inputs/day1.txt");
 }
